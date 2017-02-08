@@ -159,7 +159,9 @@ a:active {text-decoration:none; color:#848484}
 	background-color:#000000
 }
 /* 메인 로고 픽스_20170208_강혜준 */
-#i_logo {position: fixed; top: 546px; right: 0; width: 195px; height: 32px; background:url(http://img.ebiznetworks.co.kr/ebiz_ditower.png) no-repeat;}
+#i_logo {position: fixed; top: 546px; right: 3%; width: 195px; height: 32px; background:url(http://img.ebiznetworks.co.kr/ebiz_ditower.png) no-repeat;}
+@media all and (min-width: 980px){ #i_logo {right: 7%;} }
+@media all and (min-width: 1920px){	#i_logo {right: 25%;} }
 
 #m_conteiner{width:100%}
 #m_contents{width:970px; margin:auto; margin-top:40px}
