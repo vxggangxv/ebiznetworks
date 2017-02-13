@@ -399,3 +399,6 @@ a:active {text-decoration:none; color:#848484}
 #ebiz_incruit  #recruit_contents02{width:1120px; margin:auto}
 #ebiz_incruit  #recruit_contents03{width:100%; background:url(http://img.ebiznetworks.co.kr/recruit_img3_bg.jpg) 0 73px repeat-x; }
 #ebiz_incruit  #recruit_contents03 .contents03_img1{width:1120px; margin:auto; padding-top:73px}
+/* 크라운 배너 시작 2017_0213_강혜준 */
+#header {position: relative;}
+.crown_banner {position: absolute; top: 105px; right: -100px;}
