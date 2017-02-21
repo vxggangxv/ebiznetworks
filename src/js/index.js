@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(window).scroll(function(){
+	/*$(window).scroll(function(){
 		var st = $(window).scrollTop();
 
 		if(st > 12){
@@ -7,5 +7,5 @@ $(document).ready(function() {
 		}else {
 			$("#i_logo").css("display", "block");
 		}
-	});
+	});*/
 });

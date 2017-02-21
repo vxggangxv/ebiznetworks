@@ -159,10 +159,8 @@ a:active {text-decoration:none; color:#848484}
 	background-color:#000000
 }
 
-/* 메인 로고 픽스_20170208_강혜준 */
-/* #i_logo {position: fixed; top: 546px; right: 3%; width: 195px; height: 32px; background:url(http://img.ebiznetworks.co.kr/ebiz_ditower.png) no-repeat;}
-@media all and (min-width: 980px){ #i_logo {right: 7%;} }
-@media all and (min-width: 1920px){	#i_logo {right: 25%;} } */
+/* 메인 신사옥 텍스트 고정_20170208_강혜준 */
+#i_logo {position: absolute; top: 546px; right: 3%; width: 195px; height: 32px; background:url(http://img.ebiznetworks.co.kr/ebiz_ditower.png) no-repeat;}
 
 
 #m_conteiner{width:100%}
@@ -401,17 +399,6 @@ a:active {text-decoration:none; color:#848484}
 #ebiz_incruit  #recruit_contents02{width:1120px; margin:auto}
 #ebiz_incruit  #recruit_contents03{width:100%; background:url(http://img.ebiznetworks.co.kr/recruit_img3_bg.jpg) 0 73px repeat-x; }
 #ebiz_incruit  #recruit_contents03 .contents03_img1{width:1120px; margin:auto; padding-top:73px}
-/* 메인 신사옥 텍스트 고정 */
-#main_bnr:after {
-	content: ""; display: block; position: absolute;
-	width: 195px; height: 32px; background: url("http://img.ebiznetworks.co.kr/ebiz_ditower.png") no-repeat;
-	left: 50%; margin-left: 290px; top: 545px;
-}
-@media all and (max-width: 980px){#main_bnr:after {left:55%; margin-left: 100px;} }
-@media all and (max-width: 710px){#main_bnr:after {left:50%; margin-left: 50px;} }
-@media all and (max-width: 640px){#main_bnr:after {left:44%;} }
-@media all and (max-width: 480px){#main_bnr:after {left:40%; margin-left: 0;} }
-@media all and (max-width: 320px){#main_bnr:after {left:30%;} }
 /* 크라운 배너 시작 2017_0213_강혜준 */
 #header {position: relative;}
 .crown_banner {position: absolute; top: 105px; right: -100px;}
