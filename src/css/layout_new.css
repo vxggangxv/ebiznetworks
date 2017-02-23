@@ -401,3 +401,5 @@ a:active {text-decoration:none; color:#848484}
 /* 크라운 배너 시작 2017_0213_강혜준 */
 #header {position: relative;}
 .crown_banner {position: absolute; top: 105px; right: -100px;}
+/* 제보하기 추가 20170223_강혜준 */
+#compliance {position: relative; top: -2px;}
