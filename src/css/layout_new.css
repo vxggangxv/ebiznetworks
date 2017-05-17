@@ -1,15 +1,15 @@
 @charset "utf-8";
 @import url("http://static.ebiznetworks.co.kr/css/webfont.css"); /*나눔고딕 웹폰트 적용*/
-body {font-size:13px; line-height:21px; font-family:'나눔고딕', NanumGothic, 'Nanum Gothic', sans-serif; color:#848484; }
+body {font-size:13px; line-height:21px; font-family:'나눔고딕', NanumGothic, 'Nanum Gothic', sans-serif; color:#222; }
 a { cursor: pointer; }
-a:link {text-decoration:none; color:#848484}
-a:visited {text-decoration:none; color:#848484}
+a:link {text-decoration:none; color:#222}
+a:visited {text-decoration:none; color:#222}
 a:hover {text-decoration:none; color:#ff6d16}
-a:active {text-decoration:none; color:#848484}
+a:active {text-decoration:none; color:#222}
 
 
 
-#wrapper {margin:auto; width:100%;}
+#wrap {position: relative; margin:auto; min-width: 980px; width:100%;}
 
 
 /* header */
@@ -85,12 +85,15 @@ a:active {text-decoration:none; color:#848484}
 /* contents */
 #contents{width:740px; float:left}
 #contents_ttl {height: 100px; font-weight: bold; color:#4d4d4d}
-#company_text {width: 424px; float:left; margin-top:50px; padding-right:15px; display:block; text-align:justify}
-#company_img {width: 301px; float:left; margin-top:50px; display:block;}
-.no1_company{float:left; font-size:16px; background-color:#ff6d16; color:#ffffff; font-weight:600; display:block;}
-.top_text{clear:both; float:left; margin-top:8px;}
+#company_text {width: 450px; float:left; margin-top:50px; display:block; text-align:justify}
+#company_img {float:right; margin-top:50px; display:block; text-align:center;}
+#company_img .company_name {margin:10px 0 5px; font-weight:bold;}
+#company_img .company_name span {color:#000;}
+#company_img .di_view {display:inline-block; padding:1px 5px; background-color:#bbbbb9; color:#fff;}
+.no1_company{display:inline-block; font-size:20px; background-color:#ff6d16; color:#ffffff; font-weight:600;}
+.top_text{ margin-top:8px; font-size:16px;}
 .top_text span{color:#0231bb; background-color:#def4f5}
-#best_software{margin-top:30px; float:left}
+#best_software{margin-top:30px;}
 #best_software p{font-size:16px; font-weight:600; margin-bottom:15px}
 #best_software p span{color:#ff6d16; text-decoration:underline}
 #company_info{float:left; margin-top:30px;}
@@ -260,7 +263,7 @@ a:active {text-decoration:none; color:#848484}
 #donation_main #software li{float:left; width:246px; margin-top:15px; text-align:center;}
 #donation_main #software li p{margin-top:10px; line-height:1.5}
 #donation_main #software li p span{font-weight:bold}
-#donation_main #sponsor{clear:both; float:left;  width:100%; margin-top:20px} 
+#donation_main #sponsor{clear:both; float:left;  width:100%; margin-top:20px}
 #donation_main #sponsor li{float:left; width:185px}
 #donation_main #sponsor li p{width:100%; text-align:center}
 .donation_top_img {text-align:center;width:100%;padding-top:60px;clear:left}
@@ -296,13 +299,6 @@ a:active {text-decoration:none; color:#848484}
 #game .game_list div.grayBox ul {display:inline-block;margin-left:5px;width:734px;}
 #game .game_list div.grayBox ul  li div.game_intro{width:330px;height:auto;float:right;}
 #game .game_list div.grayBox  ul li div.game_intro img{display:block;}
-
-#shopping_mall{width:740px}
-#shopping_mall img{float:left}
-#kt_agency{width:740px}
-#kt_agency img{float:left}
-#real_eatate{width:740px;}
-#real_eatate img{float:left; margin-bottom:1px}
 
 
 /*지적재산권*/
@@ -403,3 +399,11 @@ a:active {text-decoration:none; color:#848484}
 .crown_banner {position: absolute; top: 105px; right: -100px;}
 /* 제보하기 추가 20170223_강혜준 */
 #compliance {position: relative; top: -2px;}
+/* 회사소개 테이블추가 20170504_이현우 */
+.company_info {margin-top:30px;}
+.company_info table {width:100%; border-top:1px solid #787878; border-bottom:1px solid #787878;}
+.company_info table tbody tr th {padding:5px 10px; border-top:1px solid #dadada; border-right:1px solid #dadada; color:#000; font-size:12px; text-align:center;}
+.company_info table tbody tr td {padding:5px 10px; border-top:1px solid #dadada; border-left:1px solid #aaa; font-size:12px;}
+.company_info table tbody tr td:first-child {border-left:0;}
+.company_info table tbody tr:first-child th, .company_info table tbody tr:first-child td {border-top:0;}
+.company_info table tbody tr td.logo {background-color:#f8f8f8; text-align:center;}
